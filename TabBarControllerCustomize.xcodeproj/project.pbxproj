@@ -14,6 +14,9 @@
 		B1A6F45820E380000048C6E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A6F45620E380000048C6E6 /* LaunchScreen.storyboard */; };
 		B1A6F46320E380000048C6E6 /* TabBarControllerCustomizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A6F46220E380000048C6E6 /* TabBarControllerCustomizeTests.swift */; };
 		B1A6F46E20E380000048C6E6 /* TabBarControllerCustomizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A6F46D20E380000048C6E6 /* TabBarControllerCustomizeUITests.swift */; };
+		B1A6F47E20E3A1E00048C6E6 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A6F47D20E3A1E00048C6E6 /* TabViewController.swift */; };
+		B1A6F48020E3A6620048C6E6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A6F47F20E3A6620048C6E6 /* SecondViewController.swift */; };
+		B1A6F48220E3A6720048C6E6 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A6F48120E3A6720048C6E6 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		B1A6F46920E380000048C6E6 /* TabBarControllerCustomizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarControllerCustomizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A6F46D20E380000048C6E6 /* TabBarControllerCustomizeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllerCustomizeUITests.swift; sourceTree = "<group>"; };
 		B1A6F46F20E380010048C6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1A6F47D20E3A1E00048C6E6 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		B1A6F47F20E3A6620048C6E6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B1A6F48120E3A6720048C6E6 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				B1A6F45420E380000048C6E6 /* Assets.xcassets */,
 				B1A6F45620E380000048C6E6 /* LaunchScreen.storyboard */,
 				B1A6F45920E380000048C6E6 /* Info.plist */,
+				B1A6F47D20E3A1E00048C6E6 /* TabViewController.swift */,
+				B1A6F47F20E3A6620048C6E6 /* SecondViewController.swift */,
+				B1A6F48120E3A6720048C6E6 /* ThirdViewController.swift */,
 			);
 			path = TabBarControllerCustomize;
 			sourceTree = "<group>";
@@ -259,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1A6F48020E3A6620048C6E6 /* SecondViewController.swift in Sources */,
+				B1A6F47E20E3A1E00048C6E6 /* TabViewController.swift in Sources */,
+				B1A6F48220E3A6720048C6E6 /* ThirdViewController.swift in Sources */,
 				B1A6F45020E380000048C6E6 /* ViewController.swift in Sources */,
 				B1A6F44E20E380000048C6E6 /* AppDelegate.swift in Sources */,
 			);
