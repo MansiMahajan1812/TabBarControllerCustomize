@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  TabBarControllerCustomize
 //
 //  Created by Mansi Mahajan on 6/27/18.
@@ -8,12 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
+
         let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(swiped))
         swipeRight.direction = UISwipeGestureRecognizerDirection.right
         self.view.addGestureRecognizer(swipeRight)
@@ -21,9 +20,14 @@ class ViewController: UIViewController {
         let swipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(swiped))
         swipeLeft.direction = UISwipeGestureRecognizerDirection.left
         self.view.addGestureRecognizer(swipeLeft)
+        // Do any additional setup after loading the view.
     }
 
-  
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
     
     @objc func swiped(_ gesture: UISwipeGestureRecognizer) {
         if gesture.direction == .left {
@@ -38,22 +42,14 @@ class ViewController: UIViewController {
     }
     
 
+    /*
+    // MARK: - Navigation
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
     }
+    */
 
-
-}
-
-extension UITabBar {
-    open override func sizeThatFits(_ size: CGSize) -> CGSize {
-        var sizeThatFits = super.sizeThatFits(size)
-            sizeThatFits.height = 100 // adjust your size here
-            return sizeThatFits
-        
-    }
-    
-    
 }
